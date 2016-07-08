@@ -51,7 +51,7 @@ const size_t
 static const char * matching_method_labels[] = { "SIFT", "SIFT+MSER", NULL };
 static const char * matching_topology_labels[] = { "All pairs (unordered set of images)", "Just neighbours (linear sequence)", NULL };
 static const char * matching_resolution_labels[] = { "medium (up to 1600px)", "high (up to 2600px)", "low (up to 1024px)", NULL }; 
-static const int matching_resolution_values[] = { 1600, 2600, 1024, NULL };
+static const int matching_resolution_values[] = { 1600, 2600, 1024, 0 };
 
 // tool's state structure 
 struct Tool_Matching

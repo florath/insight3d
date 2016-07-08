@@ -147,18 +147,6 @@ extern char* replace_extension( const char* file, const char* extn );
 */
 extern char* prepend_path( const char* path, const char* file );
 
-
-/**
-   A function that removes the path from a filename.  Similar to the Unix
-   basename command.
-
-   @param pathname a (full) path name
-
-   @return Returns the basename of \a pathname.
-*/
-extern char* basename( const char* pathname );
-
-
 /**
    Displays progress in the console with a spinning pinwheel.  Every time this
    function is called, the state of the pinwheel is incremented.  The pinwheel

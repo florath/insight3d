@@ -23,6 +23,7 @@
 */
 
 #include "tool_triangulation.h"
+#include "legacy/legacy.hpp"
 
 const size_t compute_normals_K = 200;
 

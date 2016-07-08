@@ -18,6 +18,7 @@
 #include "sift.h"
 #include "imgfeatures.h"
 #include "utils.h"
+#include <libgen.h>
 
 #include <highgui.h>
 
@@ -75,7 +76,7 @@ int main( int argc, char** argv )
     export_features( out_file_name, features, n );
 
   if( out_img_name != NULL )
-    cvSaveImage( out_img_name, img );
+     cvSaveImage( out_img_name, img, 0 );
   return 0;
 }
 

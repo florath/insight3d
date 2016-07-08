@@ -3,7 +3,7 @@ CFLAGS	= -O3
 BIN_DIR = ../bin
 INC_DIR	= ../include
 LIB_DIR	= ../lib
-INCL	= -I$(INC_DIR) `pkg-config --cflags opencv`			\
+INCL	= -I$(INC_DIR) -I/usr/include/opencv2 `pkg-config --cflags opencv`			\
 	  `pkg-config --cflags gtk+-2.0` `pkg-config --cflags gsl`
 LIBS	= -L$(LIB_DIR) -lfeat `pkg-config --libs opencv`		\
 	  `pkg-config --libs gtk+-2.0` `pkg-config --libs gsl`

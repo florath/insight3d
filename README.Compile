@@ -1,0 +1,7 @@
+This is a try to get this compiled with an up to date compiler.
+
+Used system: Debian 8.4
+gcc 4.9.2
+
+The following packets must be installed:
+apt install libopencv-dev libsdl2-dev libgsl0-dev

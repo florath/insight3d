@@ -8,6 +8,7 @@
 
 #include "imgfeatures.h"
 #include "utils.h"
+#include <libgen.h>
 
 #include <cxcore.h>
 #include <highgui.h>
